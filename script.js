@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(result => {
             
             if (result.success) {
-                let text= 'Percentile: '+ result.data.lowerPercentile + ' - ' + result.data.upperPercentile
+                let text = 'Percentile: ' + result.data.lowerPercentile + ' - ' + result.data.upperPercentile + '</br>Rank: ' + result.data.lowerRank + ' - ' + result.data.upperRank
                 resultTag.innerHTML = text
             }else{
                 let text= 'Error: ' + result.error.message

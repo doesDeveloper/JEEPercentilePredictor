@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const scoreInput = document.getElementById('score').value;
         const categorySelect = document.getElementById('category').value;
         const shiftSelect = document.getElementById('shift').value;
-        console.log("Hello")
+        console.log("Hello Bachooooo!!")
         const data = {
             name: "a",
             phone: "1000000000",
